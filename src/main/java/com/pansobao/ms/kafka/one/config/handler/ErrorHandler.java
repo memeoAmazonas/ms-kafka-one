@@ -1,7 +1,11 @@
 package com.pansobao.ms.kafka.one.config.handler;
 
-import com.pansobao.ms.kafka.one.adapter.rest.exception.*;
-import com.pansobao.ms.kafka.one.adapter.rest.exception.*;
+import com.pansobao.ms.kafka.one.adapter.rest.exception.BadRequestRestClientException;
+import com.pansobao.ms.kafka.one.adapter.rest.exception.EmptyOrNullBodyRestClientException;
+import com.pansobao.ms.kafka.one.adapter.rest.exception.NonTargetRestClientException;
+import com.pansobao.ms.kafka.one.adapter.rest.exception.NotFoundRestClientException;
+import com.pansobao.ms.kafka.one.adapter.rest.exception.RestClientGenericException;
+import com.pansobao.ms.kafka.one.adapter.rest.exception.TimeoutRestClientException;
 import com.pansobao.ms.kafka.one.config.ErrorCode;
 import com.pansobao.ms.kafka.one.config.exception.GenericException;
 import lombok.extern.slf4j.Slf4j;
